@@ -1,0 +1,11 @@
+HOST A
+compile ftserver.c first
+To Compile: gcc ftserver.c
+To run: a.out <server_port>
+
+
+open other window---HOST B
+compile ftclient.py
+You can run it with: python ftclient.py <flip1-3> <server_port> -l <data_port>   ------send the all file list
+                      OR 
+                      python ftclient.py <flip1-3> <server_port> -g <file_to_get> <data_port> -----send the specific file
